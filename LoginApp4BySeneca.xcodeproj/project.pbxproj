@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0481B6CD27C1063700BFCB60 /* ImageView2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481B6CC27C1063700BFCB60 /* ImageView2ViewController.swift */; };
+		04BBC8ED27BD78E6001225C8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBC8EC27BD78E6001225C8 /* WelcomeViewController.swift */; };
+		04BBC8EF27BD8AFC001225C8 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBC8EE27BD8AFC001225C8 /* UserInfoViewController.swift */; };
+		04BBC8F127BD8B0C001225C8 /* ImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBC8F027BD8B0C001225C8 /* ImageViewViewController.swift */; };
 		04E30BFB27BCE94F008164D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E30BFA27BCE94F008164D5 /* AppDelegate.swift */; };
 		04E30BFD27BCE94F008164D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E30BFC27BCE94F008164D5 /* SceneDelegate.swift */; };
-		04E30BFF27BCE94F008164D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E30BFE27BCE94F008164D5 /* ViewController.swift */; };
 		04E30C0227BCE94F008164D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E30C0027BCE94F008164D5 /* Main.storyboard */; };
 		04E30C0427BCE957008164D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E30C0327BCE957008164D5 /* Assets.xcassets */; };
 		04E30C0727BCE957008164D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E30C0527BCE957008164D5 /* LaunchScreen.storyboard */; };
+		04E30C1327BCFAF8008164D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C1227BCFAF8008164D5 /* LoginViewController.swift */; };
+		04E30C1627BD3B6C008164D5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E30C1527BD3B6C008164D5 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0481B6CC27C1063700BFCB60 /* ImageView2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView2ViewController.swift; sourceTree = "<group>"; };
+		04BBC8EC27BD78E6001225C8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		04BBC8EE27BD8AFC001225C8 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		04BBC8F027BD8B0C001225C8 /* ImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewViewController.swift; sourceTree = "<group>"; };
 		04E30BF727BCE94F008164D5 /* LoginApp4BySeneca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp4BySeneca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E30BFA27BCE94F008164D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E30BFC27BCE94F008164D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04E30BFE27BCE94F008164D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E30C0127BCE94F008164D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E30C0327BCE957008164D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E30C0627BCE957008164D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E30C0827BCE957008164D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E30C1227BCFAF8008164D5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04E30C1527BD3B6C008164D5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		04E30BF927BCE94F008164D5 /* LoginApp4BySeneca */ = {
 			isa = PBXGroup;
 			children = (
-				04E30BFA27BCE94F008164D5 /* AppDelegate.swift */,
-				04E30BFC27BCE94F008164D5 /* SceneDelegate.swift */,
-				04E30BFE27BCE94F008164D5 /* ViewController.swift */,
-				04E30C0027BCE94F008164D5 /* Main.storyboard */,
-				04E30C0327BCE957008164D5 /* Assets.xcassets */,
-				04E30C0527BCE957008164D5 /* LaunchScreen.storyboard */,
-				04E30C0827BCE957008164D5 /* Info.plist */,
+				04E30C1427BD3B39008164D5 /* Model */,
+				04E30C1027BCE999008164D5 /* Supportings */,
+				04E30C0E27BCE970008164D5 /* ViewControllers */,
+				04E30C0F27BCE987008164D5 /* Storyboards */,
+				04E30C1127BCE9AA008164D5 /* Sources */,
 			);
 			path = LoginApp4BySeneca;
+			sourceTree = "<group>";
+		};
+		04E30C0E27BCE970008164D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C1227BCFAF8008164D5 /* LoginViewController.swift */,
+				04BBC8EC27BD78E6001225C8 /* WelcomeViewController.swift */,
+				04BBC8EE27BD8AFC001225C8 /* UserInfoViewController.swift */,
+				04BBC8F027BD8B0C001225C8 /* ImageViewViewController.swift */,
+				0481B6CC27C1063700BFCB60 /* ImageView2ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04E30C0F27BCE987008164D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C0027BCE94F008164D5 /* Main.storyboard */,
+				04E30C0527BCE957008164D5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04E30C1027BCE999008164D5 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				04E30BFA27BCE94F008164D5 /* AppDelegate.swift */,
+				04E30BFC27BCE94F008164D5 /* SceneDelegate.swift */,
+				04E30C0827BCE957008164D5 /* Info.plist */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		04E30C1127BCE9AA008164D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C0327BCE957008164D5 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		04E30C1427BD3B39008164D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E30C1527BD3B6C008164D5 /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E30BFF27BCE94F008164D5 /* ViewController.swift in Sources */,
+				0481B6CD27C1063700BFCB60 /* ImageView2ViewController.swift in Sources */,
+				04E30C1327BCFAF8008164D5 /* LoginViewController.swift in Sources */,
+				04BBC8EF27BD8AFC001225C8 /* UserInfoViewController.swift in Sources */,
+				04BBC8ED27BD78E6001225C8 /* WelcomeViewController.swift in Sources */,
 				04E30BFB27BCE94F008164D5 /* AppDelegate.swift in Sources */,
+				04E30C1627BD3B6C008164D5 /* UserModel.swift in Sources */,
+				04BBC8F127BD8B0C001225C8 /* ImageViewViewController.swift in Sources */,
 				04E30BFD27BCE94F008164D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KGB5T28U9V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp4BySeneca/Info.plist;
+				INFOPLIST_FILE = LoginApp4BySeneca/Supportings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KGB5T28U9V;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp4BySeneca/Info.plist;
+				INFOPLIST_FILE = LoginApp4BySeneca/Supportings/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
